@@ -11,8 +11,8 @@ Demonstrate how to:
 
 '''
 
-i = 2
-f = 2.0
+i = 4
+f = 3.0
 
 print (type(i))
 print (type(f))
@@ -23,7 +23,7 @@ print (type(i))
 f = int(f)
 print (type(f))
 
-print (i / f)
+print (i // f)
 
 # user input is *always* gathered as a string
 # and needs to be converted if we want something else

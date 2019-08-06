@@ -11,14 +11,14 @@ Output should read like - "81.32 degrees fahrenheit = 27.4 degrees celsius"
 
 '''
 
-f = input("What is the temperature in fahrenheit: ")
-f = float(f)
+f = float(input("What is the temperature in fahrenheit: "))
+
 c = (f - 32) * (5 / 9)
 
-f1 = ("degrees fahrenheit =")
-c1 = ("degrees celsius")
+f1 = "degrees fahrenheit ="
+c1 = "degrees celsius"
 
-print(f,f1,c,c1)
+print(f, f1, c, c1)
 
 
 

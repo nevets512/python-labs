@@ -6,5 +6,5 @@ Write the necessary code to display the follow message to the console
 	Coding here I come!
 
 '''
-x = "I'm a programmer now"
+x = "I'm a programmer now \nYeehaw! \n"
 print(x)
