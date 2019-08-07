@@ -7,3 +7,11 @@ Letter input: o
 Result: 4
 
 '''
+
+sentence = input("Please enter a sentence: ")
+letter = input("Please enter a letter from your sentence: ")
+
+print(sentence.find(letter))
+
+
+
