@@ -9,3 +9,23 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+
+numbers = list(map(int, input('Enter ten numbers separated by a space: ').split()))
+
+print(max(numbers))
+
+my_list = []
+
+for i in range(1,10):
+    my_list.append(i)
+
+result = 1
+
+for item in my_list:
+    result = result * item
+
+print(result)
+
+
+
+
