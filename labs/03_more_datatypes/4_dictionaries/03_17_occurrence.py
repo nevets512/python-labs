@@ -6,3 +6,15 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+
+my_str = input("Please enter a string: ")
+
+my_dict = {}
+
+for x in my_str:
+    my_dict[x] = my_dict.get(x, 0) + 1
+
+print(my_dict)
+
+
+

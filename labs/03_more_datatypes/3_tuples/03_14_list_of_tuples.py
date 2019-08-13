@@ -7,15 +7,23 @@ result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 
 '''
 
-sentence_1 = input("Please enter a sentence: ")
+sentence_1 = (input("Please enter a sentence: "))
 
-print(sentence_1[0] + " ,")
+x = (sentence_1.split())
 
-#
-#def Convert(string):
-#    li = list(string.([sentence_1]))
-#    return li
+print(x)
+print(type(x))
 
-#print(Convert(sentence_1))
+list_of_tuples = []
+
+print(type(list_of_tuples))
+
+for i in x:
+    list_of_tuples.append(tuple(i[0:]))
+
+print(list_of_tuples)
+print(type(list_of_tuples))
+
+
 
 
