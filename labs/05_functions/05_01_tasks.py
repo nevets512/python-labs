@@ -13,3 +13,20 @@ Write a script that completes the following tasks.
 # call your functions, passing in the user input as the arguments, and set their output equal to new variables 
 
 # print your new variables to display the results
+
+def is_divisible():
+    a = int(input("first number: "))
+    b = int(input("second number: "))
+
+    if a % b == 0:
+        print("div as integers")
+    else:
+        print("not div as integers")
+
+
+is_divisible()
+
+
+
+
+

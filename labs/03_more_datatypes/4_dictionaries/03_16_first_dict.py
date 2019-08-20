@@ -5,14 +5,28 @@ result = {1: 1, 2: 4, 3: 9, ...and so on}
 
 '''
 
+d = {}
+
+d['name'] = 'Johnny'
+
+print(d)
+
+d['surname'] = "Jones"
+
+print(d)
+
 my_dict = {}
-for x in range(1,11):
-    my_dict[x] = x*x
+
+for i in range(1, 11):
+    my_dict[i] = i + 10
+
+print(my_dict)
+my_dict[1] = 100
 
 print(my_dict)
 
-# below is the shorter way of writing the same code above
+for k,v in my_dict.items():
+    print(k,v)
 
-my_dict_2 = {x: x*x for x in range(1, 11)}
 
-print(my_dict_2)
+
