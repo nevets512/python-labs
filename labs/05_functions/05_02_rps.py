@@ -36,22 +36,22 @@ while player == False:
 #set player to True
     player = input("Rock, Paper, Scissors?")
     if player == computer:
-        print("Tie!")
+        print("You tied!")
     elif player == "Rock":
         if computer == "Paper":
-            print("You lose!", computer, "covers", player)
+            print("You lost :(", computer, "covers", player)
         else:
-            print("You win!", player, "smashes", computer)
+            print("You won!", player, "smashes", computer)
     elif player == "Paper":
         if computer == "Scissors":
-            print("You lose!", computer, "cut", player)
+            print("You won!", computer, "cut", player)
         else:
-            print("You win!", player, "covers", computer)
+            print("You won!", player, "covers", computer)
     elif player == "Scissors":
         if computer == "Rock":
-            print("You lose...", computer, "smashes", player)
+            print("You lost :(", computer, "smashes", player)
         else:
-            print("You win!", player, "cut", computer)
+            print("You won!", player, "cut", computer)
     else:
         print("That's not a valid play. Check your spelling!")
     #player was set to True, but we want it to be False so the loop continues
