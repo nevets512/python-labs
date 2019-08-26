@@ -35,7 +35,7 @@ print(x)
 
 print(y)
 
-
+##not finished yet, need to fix to pass the user input as the arguments - see slack discussion with Johnny on 8/25/19
 
 
 
